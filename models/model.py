@@ -8,4 +8,4 @@ y = data['price']
 model = LinearRegression()
 model.fit(x, y)
 joblib.dump(model,'model.pkl')
-print("Model trained and saved successfully.")
+print("Model trained, saved successfully added to github")
